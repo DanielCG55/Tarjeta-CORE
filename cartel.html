@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="cartel.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+  <div>
+    <img id="dos" src="file://C:\Users\Dani\Desktop\logo_app.png" alt=""
+    width="50px">
+    <h1>CORE Code School</h1>
+    <img id="uno" src="file://C:\Users\Dani\Desktop\1672954591443.jpg" alt=""
+   width="250px">
+    <h2>Alumno: Daniel Cortina (30/03/1985)</h2>
+    <h3>Camarero con ganas de aprender y cambiar de vida</h3>
+   <ul>
+    <li>Ciudad: Cubelles (Barcelona)</li>
+    <li>Curso: Fullstack Web Developer</li>
+    <li>Modo: Remoto</li>
+   </ul>
+   
+
+   <button id="cambio" onclick="cambiofondo()">Press me</button>
+<script>
+  function cambiofondo(){
+    let div=document.getElementsByTagName('div')[0];
+    div.style.backgroundColor = "#1fad16";
+    let h1=document.getElementsByTagName('h1')[0];
+    h1.style.backgroundColor = "#1fad16";
+  }
+</script>
+  </div> 
+  </body>
+
+</html>
